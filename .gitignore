@@ -1,0 +1,17 @@
+/vendor/
+.env
+storage/logs/*
+storage/cache/*
+storage/reports/*
+storage/exports/*
+public/uploads/*
+!storage/logs/.gitkeep
+!storage/cache/.gitkeep
+!storage/reports/.gitkeep
+!storage/exports/.gitkeep
+!public/uploads/.gitkeep
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
